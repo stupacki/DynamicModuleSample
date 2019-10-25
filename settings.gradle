@@ -1,2 +1,3 @@
-include ':app'
 rootProject.name='Module Sample'
+
+include ':distribution:app', ':core'
