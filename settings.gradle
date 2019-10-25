@@ -1,4 +1,5 @@
 rootProject.name = 'Module Sample'
 
 include ':distribution:app',
-        ':common:core'
+        ':common:core',
+        ':feature:main'

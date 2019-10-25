@@ -9,6 +9,8 @@
       <module fileurl="file://$PROJECT_DIR$/common/core/core.iml" filepath="$PROJECT_DIR$/common/core/core.iml" />
       <module fileurl="file://$PROJECT_DIR$/distribution/distribution.iml" filepath="$PROJECT_DIR$/distribution/distribution.iml" />
       <module fileurl="file://$PROJECT_DIR$/distribution/app/distribution-app.iml" filepath="$PROJECT_DIR$/distribution/app/distribution-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/feature/feature.iml" filepath="$PROJECT_DIR$/feature/feature.iml" />
+      <module fileurl="file://$PROJECT_DIR$/feature/main/main.iml" filepath="$PROJECT_DIR$/feature/main/main.iml" />
     </modules>
   </component>
 </project>
