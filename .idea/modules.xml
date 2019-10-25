@@ -3,14 +3,18 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Module Sample.iml" filepath="$PROJECT_DIR$/Module Sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ModuleSample-Module Sample.iml" filepath="$PROJECT_DIR$/ModuleSample-Module Sample.iml" />
       <module fileurl="file://$PROJECT_DIR$/distribution/app/app.iml" filepath="$PROJECT_DIR$/distribution/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
       <module fileurl="file://$PROJECT_DIR$/common/core/common-core.iml" filepath="$PROJECT_DIR$/common/core/common-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/common/core/core.iml" filepath="$PROJECT_DIR$/common/core/core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/domain/dashboard/dashboard.iml" filepath="$PROJECT_DIR$/domain/dashboard/dashboard.iml" />
       <module fileurl="file://$PROJECT_DIR$/distribution/distribution.iml" filepath="$PROJECT_DIR$/distribution/distribution.iml" />
       <module fileurl="file://$PROJECT_DIR$/distribution/app/distribution-app.iml" filepath="$PROJECT_DIR$/distribution/app/distribution-app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/feature/feature.iml" filepath="$PROJECT_DIR$/feature/feature.iml" />
+      <module fileurl="file://$PROJECT_DIR$/domain/domain.iml" filepath="$PROJECT_DIR$/domain/domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/domain/home/domain-home.iml" filepath="$PROJECT_DIR$/domain/home/domain-home.iml" />
       <module fileurl="file://$PROJECT_DIR$/feature/main/main.iml" filepath="$PROJECT_DIR$/feature/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/domain/notifications/notifications.iml" filepath="$PROJECT_DIR$/domain/notifications/notifications.iml" />
     </modules>
   </component>
 </project>
