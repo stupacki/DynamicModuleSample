@@ -1,0 +1,65 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply from: "$rootProject.rootDir.absolutePath/dependencies.gradle"
+
+android {
+    compileSdkVersion 29
+
+
+    defaultConfig {
+        minSdkVersion 15
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles 'consumer-rules.pro'
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
+dependencies {
+
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    //Build dependencies
+
+    //General
+    api libraries.kotlinStd
+    api libraries.kotlinReflect
+
+    //Android
+    api libraries.appCompat
+    api libraries.constraintLayout
+    api libraries.coreExtensions
+    api libraries.lifecycleExtensions
+    api libraries.liveData
+    api libraries.liveData_ktx
+    api libraries.viewModel_ktx
+    api libraries.material
+    api libraries.navigationFragment
+    api libraries.navigationUI
+
+    //Third party
+    api libraries.timber
+
+    //Testing
+    testApi libraries.jUnit5
+    testApi libraries.kotlinTest
+    testApi libraries.kotlinMockito
+    testApi libraries.mockk
+    testApi libraries.coreTesting
+
+    testRuntimeOnly libraries.jUnit5Engine
+
+    androidTestImplementation libraries.instrumentationTestCore
+    androidTestRuntimeOnly libraries.instrumentationTestRunner
+}

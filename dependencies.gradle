@@ -1,0 +1,41 @@
+ext {
+    versions = [
+            lifeCycleExtensions    : '2.2.0-alpha01',
+            jUnit5                 : '5.5.2',
+            instrumentationTestBase: '1.1.0',
+    ]
+
+    libraries = [
+            //General
+            kotlinStd                : "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlinVersion",
+            kotlinReflect            : "org.jetbrains.kotlin:kotlin-reflect:$kotlinVersion",
+
+            //Android
+            appCompat                : 'androidx.appcompat:appcompat:1.1.0',
+            constraintLayout         : 'androidx.constraintlayout:constraintlayout:2.0.0-beta3',
+            coreExtensions           : 'androidx.core:core-ktx:1.1.0',
+            material                 : 'com.google.android.material:material:1.1.0-alpha10',
+            navigationFragment       : "androidx.navigation:navigation-fragment-ktx:$navControllerVersion",
+            navigationUI             : "androidx.navigation:navigation-ui-ktx:$navControllerVersion",
+            lifecycleExtensions      : "androidx.lifecycle:lifecycle-extensions:$versions.lifeCycleExtensions",
+            liveData                 : "androidx.lifecycle:lifecycle-livedata:$versions.lifeCycleExtensions",
+            liveData_ktx             : "androidx.lifecycle:lifecycle-livedata-ktx:$versions.lifeCycleExtensions",
+            viewModel_ktx            : "androidx.lifecycle:lifecycle-viewmodel-ktx:$versions.lifeCycleExtensions",
+            recyclerView             : 'androidx.recyclerview:recyclerview:1.0.0',
+            playServicesLocation     : "com.google.android.gms:play-services-location:$versions.playServices",
+
+            //Third party
+            timber                   : 'com.jakewharton.timber:timber:4.7.1',
+
+            //Testing
+            coreTesting              : 'android.arch.core:core-testing:1.1.1',
+            coroutinesTest           : "org.jetbrains.kotlinx:kotlinx-coroutines-test:$versions.coroutines",
+            jUnit5                   : "org.junit.jupiter:junit-jupiter-api:$versions.jUnit5",
+            jUnit5Engine             : "org.junit.jupiter:junit-jupiter-engine:$versions.jUnit5",
+            kotlinTest               : 'io.kotlintest:kotlintest-runner-junit5:3.4.2',
+            kotlinMockito            : 'com.nhaarman.mockitokotlin2:mockito-kotlin:2.1.0',
+            mockk                    : 'io.mockk:mockk:1.9.3',
+            instrumentationTestCore  : "de.mannodermaus.junit5:android-test-core:$versions.instrumentationTestBase",
+            instrumentationTestRunner: "de.mannodermaus.junit5:android-test-runner:$versions.instrumentationTestBase",
+    ]
+}

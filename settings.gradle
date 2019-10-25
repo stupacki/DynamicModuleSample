@@ -1,3 +1,4 @@
-rootProject.name='Module Sample'
+rootProject.name = 'Module Sample'
 
-include ':distribution:app', ':core'
+include ':distribution:app',
+        ':common:core'
