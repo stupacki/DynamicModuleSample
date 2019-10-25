@@ -1,1 +1,7 @@
 apply from: "$rootProject.rootDir.absolutePath/domain-module.gradle"
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation project(':common:core')
+}
