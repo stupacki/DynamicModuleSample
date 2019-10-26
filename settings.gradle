@@ -1,6 +1,6 @@
 rootProject.name = 'Module Sample'
 
-include ':distribution:app',
+include ':distribution:app', ':lib',
 
         //Common Modules
         ':common:core',

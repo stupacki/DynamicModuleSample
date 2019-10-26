@@ -1,4 +1,4 @@
-apply from: "$rootProject.rootDir.absolutePath/common-module.gradle"
+apply plugin: 'java-library'
 apply from: "$rootProject.rootDir.absolutePath/dependencies.gradle"
 
 dependencies {
@@ -25,16 +25,4 @@ dependencies {
 
     //Third party
     api libraries.timber
-
-    //Testing
-    testApi libraries.jUnit5
-    testApi libraries.kotlinTest
-    testApi libraries.kotlinMockito
-    testApi libraries.mockk
-    testApi libraries.coreTesting
-
-    testRuntimeOnly libraries.jUnit5Engine
-
-    androidTestImplementation libraries.instrumentationTestCore
-    androidTestRuntimeOnly libraries.instrumentationTestRunner
 }
