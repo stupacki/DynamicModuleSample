@@ -2,6 +2,7 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 apply from: "$rootProject.rootDir.absolutePath/test-output.gradle"
+apply from: "$rootProject.rootDir.absolutePath/dependencies.gradle"
 
 android {
     compileSdkVersion 29
@@ -53,4 +54,16 @@ dependencies {
     implementation project(':domain:home')
     implementation project(':domain:notifications')
     implementation project(':domain:dashboard')
+
+    //Android
+    implementation libraries.appCompat
+    implementation libraries.constraintLayout
+    implementation libraries.coreExtensions
+    implementation libraries.lifecycleExtensions
+    implementation libraries.liveData
+    implementation libraries.liveData_ktx
+    implementation libraries.viewModel_ktx
+    implementation libraries.material
+    implementation libraries.navigationFragment
+    implementation libraries.navigationUI
 }

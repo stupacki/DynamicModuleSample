@@ -11,18 +11,6 @@ dependencies {
     api libraries.kotlinStd
     api libraries.kotlinReflect
 
-    //Android
-    api libraries.appCompat
-    api libraries.constraintLayout
-    api libraries.coreExtensions
-    api libraries.lifecycleExtensions
-    api libraries.liveData
-    api libraries.liveData_ktx
-    api libraries.viewModel_ktx
-    api libraries.material
-    api libraries.navigationFragment
-    api libraries.navigationUI
-
     //Third party
     api libraries.timber
 }

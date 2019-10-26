@@ -1,7 +1,20 @@
 apply from: "$rootProject.rootDir.absolutePath/domain-module.gradle"
+apply from: "$rootProject.rootDir.absolutePath/dependencies.gradle"
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
     implementation project(':common:core')
+
+    //Android
+    implementation libraries.appCompat
+    implementation libraries.constraintLayout
+    implementation libraries.coreExtensions
+    implementation libraries.lifecycleExtensions
+    implementation libraries.liveData
+    implementation libraries.liveData_ktx
+    implementation libraries.viewModel_ktx
+    implementation libraries.material
+    implementation libraries.navigationFragment
+    implementation libraries.navigationUI
 }
