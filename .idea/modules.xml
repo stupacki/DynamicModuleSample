@@ -13,7 +13,6 @@
       <module fileurl="file://$PROJECT_DIR$/distribution/app/distribution-app.iml" filepath="$PROJECT_DIR$/distribution/app/distribution-app.iml" />
       <module fileurl="file://$PROJECT_DIR$/domain/domain.iml" filepath="$PROJECT_DIR$/domain/domain.iml" />
       <module fileurl="file://$PROJECT_DIR$/domain/home/domain-home.iml" filepath="$PROJECT_DIR$/domain/home/domain-home.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lib/lib.iml" filepath="$PROJECT_DIR$/lib/lib.iml" />
       <module fileurl="file://$PROJECT_DIR$/domain/notifications/notifications.iml" filepath="$PROJECT_DIR$/domain/notifications/notifications.iml" />
     </modules>
   </component>
