@@ -1,2 +1,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.stupacki.sample.app.navigation" />
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.stupacki.sample.app.navigation">
+
+    <application tools:ignore="AllowBackup,GoogleAppIndexingWarning,MissingApplicationIcon">
+
+        <activity android:name=".main.view.MainNavigationActivity" />
+
+    </application>
+</manifest>

@@ -1,10 +1,10 @@
 apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
+apply from: "$rootProject.rootDir.absolutePath/dependencies.gradle"
 
 android {
     compileSdkVersion 29
-
 
     defaultConfig {
         minSdkVersion 21
@@ -14,8 +14,22 @@ android {
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = "$JavaVersion.VERSION_1_8"
+    }
 }
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    api libraries.navigationFragment
+    api libraries.navigationUI
+
+    implementation libraries.constraintLayout
 }

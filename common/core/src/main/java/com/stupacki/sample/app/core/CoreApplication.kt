@@ -14,8 +14,9 @@ open class CoreApplication : SplitCompatApplication() {
         coreComponent = CoreComponent(this)
     }
 
-    override fun attachBaseContext(context: Context?) {
+    override fun attachBaseContext(context: Context) {
         super.attachBaseContext(context)
+
         SplitCompat.install(this)
     }
 

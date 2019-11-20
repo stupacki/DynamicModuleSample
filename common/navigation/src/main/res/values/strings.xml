@@ -2,7 +2,12 @@
     <string name="app_name">Navigation</string>
 
     <string name="dynamic_feature_name_home">home_feature</string>
+    <string name="title_home">Home</string>
+
     <string name="dynamic_feature_name_notifications">notifications_feature</string>
+    <string name="title_dashboard">Dashboard</string>
+
     <string name="dynamic_feature_name_dashboard">dashboard_feature</string>
+    <string name="title_notifications">Notifications</string>
 
 </resources>
