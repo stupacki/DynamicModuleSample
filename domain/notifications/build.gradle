@@ -20,5 +20,4 @@ dependencies {
     implementation libraries.material
     implementation libraries.navigationFragment
     implementation libraries.navigationUI
-    implementation libraries.playCore
 }

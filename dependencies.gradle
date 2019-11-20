@@ -21,8 +21,10 @@ ext {
             liveData_ktx        : "androidx.lifecycle:lifecycle-livedata-ktx:$versions.lifeCycleExtensions",
             viewModel_ktx       : "androidx.lifecycle:lifecycle-viewmodel-ktx:$versions.lifeCycleExtensions",
             recyclerView        : 'androidx.recyclerview:recyclerview:1.0.0',
+
+            //Google
             playServicesLocation: "com.google.android.gms:play-services-location:$versions.playServices",
-            playCore            : 'com.google.android.play:core:1.3.4',
+            playCore            : 'com.google.android.play:core:1.6.3',
 
             //Third party
             katanaCore          : "org.rewedigital.katana:katana-core:$versions.katana",
