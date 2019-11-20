@@ -1,2 +1,11 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.stupacki.sample.app.notifications" />
+<manifest xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="com.stupacki.sample.app.notifications">
+
+    <dist:module
+        dist:instant="false"
+        dist:onDemand="false"
+        dist:title="Notifications">
+        <dist:fusing dist:include="true" />
+    </dist:module>
+
+</manifest>

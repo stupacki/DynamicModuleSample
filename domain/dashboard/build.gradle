@@ -1,10 +1,13 @@
+apply plugin: 'com.android.dynamic-feature'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
 apply from: "$rootProject.rootDir.absolutePath/domain-module.gradle"
 apply from: "$rootProject.rootDir.absolutePath/dependencies.gradle"
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
-    implementation project(':common:core')
+    implementation project(':distribution:app')
 
     //Android
     implementation libraries.appCompat
@@ -17,4 +20,5 @@ dependencies {
     implementation libraries.material
     implementation libraries.navigationFragment
     implementation libraries.navigationUI
+    implementation libraries.playCore
 }

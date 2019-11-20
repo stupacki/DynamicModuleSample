@@ -4,6 +4,7 @@ include ':distribution:app',
 
         //Common Modules
         ':common:core',
+        ':common:navigation',
 
         //Domain Modules
         ':domain:home',

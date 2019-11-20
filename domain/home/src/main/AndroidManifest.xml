@@ -1,2 +1,11 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.stupacki.sample.app.home" />
+<manifest xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="com.stupacki.sample.app.home">
+
+    <dist:module
+        dist:instant="false"
+        dist:onDemand="false"
+        dist:title="Home">
+        <dist:fusing dist:include="true" />
+    </dist:module>
+
+</manifest>

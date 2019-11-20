@@ -1,2 +1,11 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.stupacki.sample.app.dashboard" />
+<manifest xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="com.stupacki.sample.app.dashboard">
+
+    <dist:module
+        dist:instant="false"
+        dist:onDemand="false"
+        dist:title="Dashboard">
+        <dist:fusing dist:include="true" />
+    </dist:module>
+
+</manifest>

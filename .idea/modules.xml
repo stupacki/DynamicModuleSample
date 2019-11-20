@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/distribution/app/app.iml" filepath="$PROJECT_DIR$/distribution/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
       <module fileurl="file://$PROJECT_DIR$/common/core/common-core.iml" filepath="$PROJECT_DIR$/common/core/common-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/navigation/common-navigation.iml" filepath="$PROJECT_DIR$/common/navigation/common-navigation.iml" />
       <module fileurl="file://$PROJECT_DIR$/common/core/core.iml" filepath="$PROJECT_DIR$/common/core/core.iml" />
       <module fileurl="file://$PROJECT_DIR$/domain/dashboard/dashboard.iml" filepath="$PROJECT_DIR$/domain/dashboard/dashboard.iml" />
       <module fileurl="file://$PROJECT_DIR$/distribution/distribution.iml" filepath="$PROJECT_DIR$/distribution/distribution.iml" />
