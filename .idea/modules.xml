@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/DynamicModuleSample-Module Sample.iml" filepath="$PROJECT_DIR$/DynamicModuleSample-Module Sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/DynamicModuleSample-common.iml" filepath="$PROJECT_DIR$/common/DynamicModuleSample-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/distribution/DynamicModuleSample-distribution.iml" filepath="$PROJECT_DIR$/distribution/DynamicModuleSample-distribution.iml" />
+      <module fileurl="file://$PROJECT_DIR$/domain/DynamicModuleSample-domain.iml" filepath="$PROJECT_DIR$/domain/DynamicModuleSample-domain.iml" />
       <module fileurl="file://$PROJECT_DIR$/Module Sample.iml" filepath="$PROJECT_DIR$/Module Sample.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ModuleSample-Module Sample.iml" filepath="$PROJECT_DIR$/ModuleSample-Module Sample.iml" />
       <module fileurl="file://$PROJECT_DIR$/distribution/app/app.iml" filepath="$PROJECT_DIR$/distribution/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
       <module fileurl="file://$PROJECT_DIR$/common/core/common-core.iml" filepath="$PROJECT_DIR$/common/core/common-core.iml" />
@@ -12,7 +15,9 @@
       <module fileurl="file://$PROJECT_DIR$/distribution/distribution.iml" filepath="$PROJECT_DIR$/distribution/distribution.iml" />
       <module fileurl="file://$PROJECT_DIR$/distribution/app/distribution-app.iml" filepath="$PROJECT_DIR$/distribution/app/distribution-app.iml" />
       <module fileurl="file://$PROJECT_DIR$/domain/domain.iml" filepath="$PROJECT_DIR$/domain/domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/domain/dashboard/domain-dashboard.iml" filepath="$PROJECT_DIR$/domain/dashboard/domain-dashboard.iml" />
       <module fileurl="file://$PROJECT_DIR$/domain/home/domain-home.iml" filepath="$PROJECT_DIR$/domain/home/domain-home.iml" />
+      <module fileurl="file://$PROJECT_DIR$/domain/notifications/domain-notifications.iml" filepath="$PROJECT_DIR$/domain/notifications/domain-notifications.iml" />
       <module fileurl="file://$PROJECT_DIR$/domain/notifications/notifications.iml" filepath="$PROJECT_DIR$/domain/notifications/notifications.iml" />
     </modules>
   </component>
