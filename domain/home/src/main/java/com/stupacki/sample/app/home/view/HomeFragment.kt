@@ -1,4 +1,4 @@
-package com.stupacki.sample.app.home
+package com.stupacki.sample.app.home.view
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -6,7 +6,9 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
+import com.stupacki.sample.app.home.R
 import com.stupacki.sample.app.home.injection.HomeComponent
+import com.stupacki.sample.app.home.viewmodel.HomeViewModel
 import kotlinx.android.synthetic.main.fragment_home.*
 import org.rewedigital.katana.androidx.viewmodel.viewModel
 

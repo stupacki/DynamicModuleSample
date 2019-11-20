@@ -1,10 +1,10 @@
-package com.stupacki.sample.app.home
+package com.stupacki.sample.app.detail.viewmodel
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
-internal class HomeViewModel : ViewModel() {
+internal class HomeDetailViewModel : ViewModel() {
 
     private val mutableText = MutableLiveData<String>(FRAGMENT_TEXT)
 
