@@ -4,10 +4,13 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
-class HomeViewModel : ViewModel() {
+internal class HomeViewModel : ViewModel() {
 
-    private val _text = MutableLiveData<String>().apply {
-        value = "This is home Fragment"
+    private val mutableText = MutableLiveData<String>(FRAGMENT_TEXT)
+
+    val text: LiveData<String> = mutableText
+
+    companion object {
+        private const val FRAGMENT_TEXT = "This is home Fragment"
     }
-    val text: LiveData<String> = _text
 }
