@@ -1,5 +1,6 @@
 ext {
     versions = [
+            katana             : '1.7.1',
             lifeCycleExtensions: '2.2.0-alpha01',
     ]
 
@@ -24,6 +25,9 @@ ext {
             playCore            : 'com.google.android.play:core:1.3.4',
 
             //Third party
+            katanaCore          : "org.rewedigital.katana:katana-core:$versions.katana",
+            katanaAndroid       : "org.rewedigital.katana:katana-android:$versions.katana",
+            katanaViewModel     : "org.rewedigital.katana:katana-androidx-viewmodel:$versions.katana",
             timber              : 'com.jakewharton.timber:timber:4.7.1',
     ]
 }

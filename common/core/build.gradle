@@ -12,5 +12,8 @@ dependencies {
     api libraries.kotlinReflect
 
     //Third party
+    api libraries.katanaCore
+    api libraries.katanaAndroid
+    api libraries.katanaViewModel
     api libraries.timber
 }

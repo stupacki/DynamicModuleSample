@@ -4,7 +4,8 @@
     <dist:module
         dist:instant="false"
         dist:onDemand="false"
-        dist:title="Notifications">
+        dist:title="@string/dynamic_feature_name_notifications"
+        dist:split="@string/dynamic_feature_name_notifications">
         <dist:fusing dist:include="true" />
     </dist:module>
 

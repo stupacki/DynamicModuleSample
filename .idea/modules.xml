@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/DynamicModuleSample-Module Sample.iml" filepath="$PROJECT_DIR$/DynamicModuleSample-Module Sample.iml" />
-      <module fileurl="file://$PROJECT_DIR$/common/DynamicModuleSample-common.iml" filepath="$PROJECT_DIR$/common/DynamicModuleSample-common.iml" />
-      <module fileurl="file://$PROJECT_DIR$/distribution/DynamicModuleSample-distribution.iml" filepath="$PROJECT_DIR$/distribution/DynamicModuleSample-distribution.iml" />
-      <module fileurl="file://$PROJECT_DIR$/domain/DynamicModuleSample-domain.iml" filepath="$PROJECT_DIR$/domain/DynamicModuleSample-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DynamicFeatureNavigationSample-Module Sample.iml" filepath="$PROJECT_DIR$/DynamicFeatureNavigationSample-Module Sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/DynamicFeatureNavigationSample-common.iml" filepath="$PROJECT_DIR$/common/DynamicFeatureNavigationSample-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/distribution/DynamicFeatureNavigationSample-distribution.iml" filepath="$PROJECT_DIR$/distribution/DynamicFeatureNavigationSample-distribution.iml" />
+      <module fileurl="file://$PROJECT_DIR$/domain/DynamicFeatureNavigationSample-domain.iml" filepath="$PROJECT_DIR$/domain/DynamicFeatureNavigationSample-domain.iml" />
       <module fileurl="file://$PROJECT_DIR$/Module Sample.iml" filepath="$PROJECT_DIR$/Module Sample.iml" />
       <module fileurl="file://$PROJECT_DIR$/distribution/app/app.iml" filepath="$PROJECT_DIR$/distribution/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
