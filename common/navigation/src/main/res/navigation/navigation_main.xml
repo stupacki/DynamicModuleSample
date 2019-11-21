@@ -12,20 +12,14 @@
 
     <action
         android:id="@+id/toDashboardFeature"
-        app:destination="@id/navigation_home" />
+        app:destination="@id/navigation_dashboard" />
 
-    <fragment
-        android:id="@+id/navigationDashboard"
-        android:name="com.stupacki.sample.app.ui.dashboard.DashboardFragment"
-        android:label="@string/title_dashboard" />
+    <include app:graph="@navigation/navigation_dashboard" />
 
     <action
         android:id="@+id/toNotificationsFeature"
-        app:destination="@id/navigation_home" />
+        app:destination="@id/navigation_notifications" />
 
-    <fragment
-        android:id="@+id/navigationNotifications"
-        android:name="com.stupacki.sample.app.notifications.view.NotificationsFragment"
-        android:label="@string/title_notifications" />
+    <include app:graph="@navigation/navigation_notifications" />
 
 </navigation>

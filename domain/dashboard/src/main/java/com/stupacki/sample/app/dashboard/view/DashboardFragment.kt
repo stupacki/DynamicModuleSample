@@ -1,4 +1,4 @@
-package com.stupacki.sample.app.ui.dashboard
+package com.stupacki.sample.app.dashboard.view
 
 import android.os.Bundle
 import android.view.LayoutInflater

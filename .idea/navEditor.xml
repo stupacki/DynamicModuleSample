@@ -54,7 +54,7 @@
             <LayoutPositions>
               <option name="myPositions">
                 <map>
-                  <entry key="navigationHome">
+                  <entry key="navigationDashboard">
                     <value>
                       <LayoutPositions>
                         <option name="myPosition">
@@ -62,36 +62,6 @@
                             <option name="x" value="256" />
                             <option name="y" value="12" />
                           </Point>
-                        </option>
-                        <option name="myPositions">
-                          <map>
-                            <entry key="toHomeDetail">
-                              <value>
-                                <LayoutPositions />
-                              </value>
-                            </entry>
-                          </map>
-                        </option>
-                      </LayoutPositions>
-                    </value>
-                  </entry>
-                  <entry key="navigationHomeDetail">
-                    <value>
-                      <LayoutPositions>
-                        <option name="myPosition">
-                          <Point>
-                            <option name="x" value="12" />
-                            <option name="y" value="12" />
-                          </Point>
-                        </option>
-                        <option name="myPositions">
-                          <map>
-                            <entry key="toHome">
-                              <value>
-                                <LayoutPositions />
-                              </value>
-                            </entry>
-                          </map>
                         </option>
                       </LayoutPositions>
                     </value>
@@ -163,7 +133,7 @@
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="256" />
+                            <option name="x" value="252" />
                             <option name="y" value="12" />
                           </Point>
                         </option>
@@ -192,6 +162,21 @@
                           </Point>
                         </option>
                       </LayoutPositions>
+                    </value>
+                  </entry>
+                  <entry key="toDashboardFeature">
+                    <value>
+                      <LayoutPositions />
+                    </value>
+                  </entry>
+                  <entry key="toHomeFeature">
+                    <value>
+                      <LayoutPositions />
+                    </value>
+                  </entry>
+                  <entry key="toNotificationsFeature">
+                    <value>
+                      <LayoutPositions />
                     </value>
                   </entry>
                 </map>
@@ -242,6 +227,28 @@
                               </value>
                             </entry>
                           </map>
+                        </option>
+                      </LayoutPositions>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </LayoutPositions>
+          </value>
+        </entry>
+        <entry key="navigation_notification.xml">
+          <value>
+            <LayoutPositions>
+              <option name="myPositions">
+                <map>
+                  <entry key="navigationNotifications">
+                    <value>
+                      <LayoutPositions>
+                        <option name="myPosition">
+                          <Point>
+                            <option name="x" value="12" />
+                            <option name="y" value="12" />
+                          </Point>
                         </option>
                       </LayoutPositions>
                     </value>

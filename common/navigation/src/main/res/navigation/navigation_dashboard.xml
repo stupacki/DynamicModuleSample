@@ -7,6 +7,6 @@
     <fragment
         android:id="@+id/navigationDashboard"
         android:name="com.stupacki.sample.app.dashboard.view.DashboardFragment"
-        android:label="@string/title_home" />
+        android:label="@string/title_dashboard" />
 
 </navigation>
