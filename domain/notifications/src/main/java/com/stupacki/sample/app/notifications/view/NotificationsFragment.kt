@@ -1,4 +1,4 @@
-package com.stupacki.sample.app.notifications
+package com.stupacki.sample.app.notifications.view
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,6 +8,8 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
+import com.stupacki.sample.app.notifications.viewmodel.NotificationsViewModel
+import com.stupacki.sample.app.notifications.R
 
 class NotificationsFragment : Fragment() {
 

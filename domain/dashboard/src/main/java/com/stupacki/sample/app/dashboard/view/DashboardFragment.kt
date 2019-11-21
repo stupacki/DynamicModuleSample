@@ -8,7 +8,7 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
-import com.stupacki.sample.app.dashboard.DashboardViewModel
+import com.stupacki.sample.app.dashboard.viewmodel.DashboardViewModel
 import com.stupacki.sample.app.dashboard.R
 
 class DashboardFragment : Fragment() {

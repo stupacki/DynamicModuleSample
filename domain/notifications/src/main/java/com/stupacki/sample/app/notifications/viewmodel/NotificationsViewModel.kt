@@ -1,4 +1,4 @@
-package com.stupacki.sample.app.notifications
+package com.stupacki.sample.app.notifications.viewmodel
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

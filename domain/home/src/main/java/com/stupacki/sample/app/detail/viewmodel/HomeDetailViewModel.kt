@@ -11,6 +11,6 @@ internal class HomeDetailViewModel : ViewModel() {
     val text: LiveData<String> = mutableText
 
     companion object {
-        private const val FRAGMENT_TEXT = "This is home Fragment"
+        private const val FRAGMENT_TEXT = "This is home detail Fragment"
     }
 }

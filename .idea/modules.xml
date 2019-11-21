@@ -4,9 +4,17 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/DynamicFeatureNavigationSample-Module Sample.iml" filepath="$PROJECT_DIR$/DynamicFeatureNavigationSample-Module Sample.iml" />
       <module fileurl="file://$PROJECT_DIR$/common/DynamicFeatureNavigationSample-common.iml" filepath="$PROJECT_DIR$/common/DynamicFeatureNavigationSample-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/core/DynamicFeatureNavigationSample-common-core.iml" filepath="$PROJECT_DIR$/common/core/DynamicFeatureNavigationSample-common-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/distribution/DynamicFeatureNavigationSample-distribution.iml" filepath="$PROJECT_DIR$/distribution/DynamicFeatureNavigationSample-distribution.iml" />
+      <module fileurl="file://$PROJECT_DIR$/distribution/app/DynamicFeatureNavigationSample-distribution-app.iml" filepath="$PROJECT_DIR$/distribution/app/DynamicFeatureNavigationSample-distribution-app.iml" />
       <module fileurl="file://$PROJECT_DIR$/domain/DynamicFeatureNavigationSample-domain.iml" filepath="$PROJECT_DIR$/domain/DynamicFeatureNavigationSample-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/domain/dashboard/DynamicFeatureNavigationSample-domain-dashboard.iml" filepath="$PROJECT_DIR$/domain/dashboard/DynamicFeatureNavigationSample-domain-dashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/domain/notifications/DynamicFeatureNavigationSample-domain-notifications.iml" filepath="$PROJECT_DIR$/domain/notifications/DynamicFeatureNavigationSample-domain-notifications.iml" />
       <module fileurl="file://$PROJECT_DIR$/Module Sample.iml" filepath="$PROJECT_DIR$/Module Sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Workspace-DynamicFeatureNavigationSample-Module Sample.iml" filepath="$PROJECT_DIR$/Workspace-DynamicFeatureNavigationSample-Module Sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/Workspace-DynamicFeatureNavigationSample-common.iml" filepath="$PROJECT_DIR$/common/Workspace-DynamicFeatureNavigationSample-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/distribution/Workspace-DynamicFeatureNavigationSample-distribution.iml" filepath="$PROJECT_DIR$/distribution/Workspace-DynamicFeatureNavigationSample-distribution.iml" />
+      <module fileurl="file://$PROJECT_DIR$/domain/Workspace-DynamicFeatureNavigationSample-domain.iml" filepath="$PROJECT_DIR$/domain/Workspace-DynamicFeatureNavigationSample-domain.iml" />
       <module fileurl="file://$PROJECT_DIR$/distribution/app/app.iml" filepath="$PROJECT_DIR$/distribution/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
       <module fileurl="file://$PROJECT_DIR$/common/core/common-core.iml" filepath="$PROJECT_DIR$/common/core/common-core.iml" />
@@ -19,6 +27,8 @@
       <module fileurl="file://$PROJECT_DIR$/domain/dashboard/domain-dashboard.iml" filepath="$PROJECT_DIR$/domain/dashboard/domain-dashboard.iml" />
       <module fileurl="file://$PROJECT_DIR$/domain/home/domain-home.iml" filepath="$PROJECT_DIR$/domain/home/domain-home.iml" />
       <module fileurl="file://$PROJECT_DIR$/domain/notifications/domain-notifications.iml" filepath="$PROJECT_DIR$/domain/notifications/domain-notifications.iml" />
+      <module fileurl="file://$PROJECT_DIR$/domain/home/home.iml" filepath="$PROJECT_DIR$/domain/home/home.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/navigation/navigation.iml" filepath="$PROJECT_DIR$/common/navigation/navigation.iml" />
       <module fileurl="file://$PROJECT_DIR$/domain/notifications/notifications.iml" filepath="$PROJECT_DIR$/domain/notifications/notifications.iml" />
     </modules>
   </component>

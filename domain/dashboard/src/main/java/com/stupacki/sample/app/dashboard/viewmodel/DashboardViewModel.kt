@@ -1,4 +1,4 @@
-package com.stupacki.sample.app.dashboard
+package com.stupacki.sample.app.dashboard.viewmodel
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

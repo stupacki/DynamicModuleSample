@@ -6,16 +6,21 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
+import androidx.navigation.NavController
+import androidx.navigation.fragment.findNavController
 import com.stupacki.sample.app.home.R
 import com.stupacki.sample.app.home.injection.HomeComponent
 import com.stupacki.sample.app.home.viewmodel.HomeViewModel
 import kotlinx.android.synthetic.main.fragment_home.*
 import org.rewedigital.katana.androidx.viewmodel.viewModel
+import com.stupacki.sample.app.navigation.R as NavR
 
 internal class HomeFragment : Fragment() {
 
     private val component by lazy { HomeComponent() }
     private val viewModel by component.viewModel<HomeViewModel>(this)
+
+    private val navController: NavController by lazy { findNavController() }
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -30,5 +35,9 @@ internal class HomeFragment : Fragment() {
         viewModel.text.observe(this.viewLifecycleOwner, Observer {
             homeTextView.text = it
         })
+
+        toHomeDetailButton.setOnClickListener {
+            navController.navigate(NavR.id.toHomeDetail)
+        }
     }
 }
