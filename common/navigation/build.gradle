@@ -30,8 +30,7 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
-    api libraries.navigationFragment
-    api libraries.navigationUI
+    implementation project(':common:core')
 
     implementation libraries.constraintLayout
 }

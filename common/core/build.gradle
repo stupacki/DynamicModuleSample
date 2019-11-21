@@ -37,6 +37,8 @@ dependencies {
 
     //Android
     api libraries.playCore
+    api libraries.navigationFragment
+    api libraries.navigationUI
 
     //Third party
     api libraries.katanaCore

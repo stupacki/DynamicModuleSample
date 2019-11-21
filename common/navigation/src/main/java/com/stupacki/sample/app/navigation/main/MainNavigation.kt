@@ -3,17 +3,17 @@ package com.stupacki.sample.app.navigation.main
 import androidx.navigation.NavController
 import com.stupacki.sample.app.navigation.R
 
-class MainNavigation(private val navController: NavController) {
+class MainNavigation {
 
-    fun navigateToHomeFeature() {
+    fun navigateToHomeFeature(navController: NavController) {
         navController.navigate(R.id.toHomeFeature)
     }
 
-    fun navigateToDashboardFeature() {
+    fun navigateToDashboardFeature(navController: NavController) {
         navController.navigate(R.id.toHomeFeature)
     }
 
-    fun navigateToNotificationsFeature() {
+    fun navigateToNotificationsFeature(navController: NavController) {
         navController.navigate(R.id.toHomeFeature)
     }
 }

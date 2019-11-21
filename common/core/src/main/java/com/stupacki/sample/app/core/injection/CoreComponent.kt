@@ -5,5 +5,7 @@ import org.rewedigital.katana.Component
 
 object CoreComponent {
 
-    operator fun invoke(app: Application) = Component()
+    operator fun invoke(app: Application) = Component(
+        modules = listOf(CoreModule(app))
+    )
 }
