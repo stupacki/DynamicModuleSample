@@ -55,7 +55,6 @@ dependencies {
 
     //Common Modules
     api project(':common:core')
-    api project(':common:navigation')
 
     //Android
     implementation libraries.appCompat

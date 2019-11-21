@@ -11,14 +11,15 @@ import androidx.navigation.fragment.findNavController
 import com.stupacki.sample.app.home.R
 import com.stupacki.sample.app.home.injection.HomeComponent
 import com.stupacki.sample.app.home.viewmodel.HomeViewModel
+import com.stupacki.sample.app.navigation.home.HomeNavigation
 import kotlinx.android.synthetic.main.fragment_home.*
 import org.rewedigital.katana.androidx.viewmodel.viewModel
-import com.stupacki.sample.app.navigation.R as NavR
 
 internal class HomeFragment : Fragment() {
 
     private val component by lazy { HomeComponent() }
     private val viewModel by component.viewModel<HomeViewModel>(this)
+    private val homeNavigation by component.inject<HomeNavigation>()
 
     private val navController: NavController by lazy { findNavController() }
 
@@ -37,7 +38,7 @@ internal class HomeFragment : Fragment() {
         })
 
         toHomeDetailButton.setOnClickListener {
-            navController.navigate(NavR.id.toHomeDetail)
+            homeNavigation.navigateToHomeDetail(navController)
         }
     }
 }

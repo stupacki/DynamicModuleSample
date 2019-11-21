@@ -30,6 +30,7 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
     //Build dependencies
+    api project(':common:navigation')
 
     //General
     api libraries.kotlinStd
@@ -37,8 +38,6 @@ dependencies {
 
     //Android
     api libraries.playCore
-    api libraries.navigationFragment
-    api libraries.navigationUI
 
     //Third party
     api libraries.katanaCore

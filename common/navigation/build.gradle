@@ -30,7 +30,11 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
-    implementation project(':common:core')
+    //Android
+    api libraries.navigationFragment
+    api libraries.navigationUI
+
+    implementation libraries.katanaCore
 
     implementation libraries.constraintLayout
 }
