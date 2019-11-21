@@ -11,7 +11,6 @@ object CoreModule {
     const val APPLICATION = "APPLICATION"
     const val APP_CONTEXT = "APP_CONTEXT"
     const val APP_RESOURCES = "APP_RESOURCES"
-    const val NAV_CONTROLLER = "NAV_CONTROLLER"
 
     operator fun invoke(app: Application) = Module {
 

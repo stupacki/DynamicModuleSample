@@ -5,13 +5,14 @@ import com.google.android.play.core.splitcompat.SplitCompat
 import com.google.android.play.core.splitcompat.SplitCompatApplication
 import com.stupacki.sample.app.core.injection.CoreComponent
 import org.rewedigital.katana.Component
+import org.rewedigital.katana.Module
 
 open class CoreApplication : SplitCompatApplication() {
 
     override fun onCreate() {
         super.onCreate()
 
-        coreComponent = CoreComponent(this)
+        component = CoreComponent(this)
     }
 
     override fun attachBaseContext(context: Context) {
@@ -21,6 +22,14 @@ open class CoreApplication : SplitCompatApplication() {
     }
 
     companion object {
-        lateinit var coreComponent: Component
+        private var component: Component? = null
+
+        val coreComponent: Component
+            get() = component?.let { it }
+                ?: throw IllegalStateException("CoreComponent should not be null, but it is ... Get your things together ...")
+
+        fun addModule(module: Module) {
+            component = component?.plus(module)
+        }
     }
 }

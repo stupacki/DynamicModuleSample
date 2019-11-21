@@ -3,6 +3,7 @@ package com.stupacki.sample.app.notifications.viewmodel
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
+import androidx.navigation.NavController
 
 class NotificationsViewModel : ViewModel() {
 

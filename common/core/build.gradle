@@ -29,9 +29,6 @@ dependencies {
 
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
-    //Build dependencies
-    api project(':common:navigation')
-
     //General
     api libraries.kotlinStd
     api libraries.kotlinReflect

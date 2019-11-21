@@ -38,7 +38,7 @@ internal class HomeFragment : Fragment() {
         })
 
         toHomeDetailButton.setOnClickListener {
-            homeNavigation.navigateToHomeDetail(navController)
+            homeNavigation.navigateToHomeDetail()
         }
     }
 }
