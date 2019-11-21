@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navigation_notifications"
+    app:startDestination="@id/navigationNotifications">
+
+    <fragment
+        android:id="@+id/navigationNotifications"
+        android:name="com.stupacki.sample.app.notifications.view.NotificationsFragment"
+        android:label="@string/title_notifications" />
+
+</navigation>
