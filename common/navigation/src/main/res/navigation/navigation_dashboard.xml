@@ -9,4 +9,8 @@
         android:name="com.stupacki.sample.app.dashboard.view.DashboardFragment"
         android:label="@string/title_dashboard" />
 
+    <deepLink
+        android:id="@+id/deepLink"
+        app:uri="www.rewe.com/dashboard" />
+
 </navigation>

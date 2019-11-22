@@ -9,4 +9,7 @@
         android:name="com.stupacki.sample.app.notifications.view.NotificationsFragment"
         android:label="@string/title_notifications" />
 
+    <deepLink
+        android:id="@+id/deepLink"
+        app:uri="www.rewe.com/notifications" />
 </navigation>

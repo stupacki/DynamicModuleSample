@@ -24,4 +24,8 @@
             app:destination="@id/navigationHome" />
     </fragment>
 
+    <deepLink
+        android:id="@+id/deepLink"
+        app:uri="www.rewe.com/home" />
+
 </navigation>

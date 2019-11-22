@@ -22,4 +22,8 @@
 
     <include app:graph="@navigation/navigation_notifications" />
 
+    <deepLink
+        android:id="@+id/deepLink"
+        app:uri="www.rewe.com" />
+
 </navigation>

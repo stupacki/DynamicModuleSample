@@ -1,10 +1,10 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    package="com.stupacki.sample.app.navigation">
+<manifest package="com.stupacki.sample.app.navigation">
 
-    <application tools:ignore="AllowBackup,GoogleAppIndexingWarning,MissingApplicationIcon">
+<!--    <application tools:ignore="AllowBackup,GoogleAppIndexingWarning,MissingApplicationIcon">-->
 
-        <activity android:name=".main.view.MainNavigationActivity" />
+<!--        <activity android:name=".navigation.main.view.MainNavigationActivity" >-->
+<!--            <nav-graph android:value="@navigation/navigation_main" />-->
+<!--        </activity>-->
 
-    </application>
+<!--    </application>-->
 </manifest>
