@@ -21,8 +21,6 @@ internal class HomeFragment : Fragment() {
     private val viewModel by component.viewModel<HomeViewModel>(this)
     private val homeNavigation by component.inject<HomeNavigation>()
 
-    private val navController: NavController by lazy { findNavController() }
-
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,

@@ -3,7 +3,7 @@ package com.stupacki.sample.app.navigation.main.view
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.findNavController
-import androidx.navigation.ui.NavigationUI
+import androidx.navigation.ui.setupWithNavController
 import com.stupacki.sample.app.core.CoreApplication
 import com.stupacki.sample.app.navigation.R
 import com.stupacki.sample.app.navigation.injection.NavigationModule
@@ -22,12 +22,12 @@ class MainNavigationActivity : AppCompatActivity() {
 
         setContentView(R.layout.activity_main_navigation)
 
-        NavigationUI.setupWithNavController(bottomNavView, navController)
+        //Injection must happened before adding the graph, otherwise the first click will fail
+        CoreApplication.addModule(module)
 
+        navController.setGraph(R.navigation.navigation_main)
+
+        bottomNavView.setupWithNavController(navController)
         bottomNavView.inflateMenu(R.menu.bottom_nav_menu)
-
-        injectNavigation()
     }
-
-    private fun injectNavigation() = CoreApplication.addModule(module)
 }
